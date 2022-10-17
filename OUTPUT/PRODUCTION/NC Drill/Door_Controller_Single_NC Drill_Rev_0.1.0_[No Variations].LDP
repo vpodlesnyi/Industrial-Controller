@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\ALTIUM\door-controller-single-pcb\PCB\Door_Controller_Single.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=door_controller_single_nc drill_rev_0.1.0_[no variations]-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=door_controller_single_nc drill_rev_0.1.0_[no variations]-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl

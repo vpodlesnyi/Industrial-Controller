@@ -1,0 +1,146 @@
+*************************************************************
+FileName = Door_Controller_Single.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\profile
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\stephdr
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_1\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_1\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_1\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_1\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_2\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_2\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_2\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_2\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_4__gnd_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_4__gnd_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_3\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_3\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_2__gnd_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_2__gnd_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_3\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\core_3\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_3__sig_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_3__sig_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_4\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\prepreg_4\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_6__sig_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_6__sig_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_7__gnd_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_7__gnd_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_5__pwr_\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\layer_5__pwr_\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_plated_bottom-top\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\board_outline\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\board_outline\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_3d\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_3d\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_guide_top-bottom\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_guide_top-bottom\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_3d\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_3d\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_assembly\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\top_assembly\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_assembly\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\bottom_assembly\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_drawing_top-bottom\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\drill_drawing_top-bottom\attrlist
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\steps\pcb\eda\data
+
+Generated File : C:\ALTIUM\door-controller-single-pcb\Output\ODB++\odb\matrix\matrix
+
