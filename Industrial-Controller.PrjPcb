@@ -3,7 +3,7 @@ Version=1.0
 HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Industrial-Controller
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -59,7 +59,7 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -76,7 +76,7 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -93,7 +93,7 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -127,7 +127,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -161,7 +161,7 @@ AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -178,7 +178,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -195,7 +195,7 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -389,68 +389,68 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=GlobalAddress1
-Value=nab. reki Karpovki, d. 5/3E
-
-[Parameter2]
-Name=GlobalAddress2
-Value=Saint-Petersburg, 197022
-
-[Parameter3]
-Name=GlobalAddress3
-Value=Ph: +7 (911) 701-51-99
-
-[Parameter4]
-Name=GlobalCompanyName
-Value=MRobot, LCC
-
-[Parameter5]
-Name=GlobalDocumentNumberDrawingASM
-Value=0000-0000
-
-[Parameter6]
-Name=GlobalDocumentNumberDrawingPCB
-Value=0000-0000
-
-[Parameter7]
-Name=GlobalDocumentNumberPCB
-Value=0000-0000
-
-[Parameter8]
-Name=GlobalDocumentNumberSCH
-Value=0000-0000
-
-[Parameter9]
-Name=GlobalDocumentSubtitle
-Value=PLC
-
-[Parameter10]
-Name=GlobalDocumentTitle
-Value=Industrial PLC
-
-[Parameter11]
-Name=GlobalEngineer
-Value=Podlesnyi Vasilii
-
-[Parameter12]
-Name=GlobalJiraKey
-Value=PLCMROBOT
-
-[Parameter13]
-Name=GlobalProjectTitle
-Value=Industrial PLC
-
-[Parameter14]
-Name=GlobalRevisionBOM
+Name=GlobalRevisionSCH
 Value=0.1.0
 
-[Parameter15]
+[Parameter2]
 Name=GlobalRevisionPCB
 Value=0.1.0
 
-[Parameter16]
-Name=GlobalRevisionSCH
+[Parameter3]
+Name=GlobalRevisionBOM
 Value=0.1.0
+
+[Parameter4]
+Name=GlobalProjectTitle
+Value=Industrial PLC
+
+[Parameter5]
+Name=GlobalJiraKey
+Value=PLCMROBOT
+
+[Parameter6]
+Name=GlobalEngineer
+Value=Podlesnyi Vasilii
+
+[Parameter7]
+Name=GlobalDocumentTitle
+Value=Industrial PLC
+
+[Parameter8]
+Name=GlobalDocumentSubtitle
+Value=PLC
+
+[Parameter9]
+Name=GlobalDocumentNumberSCH
+Value=0000-0000
+
+[Parameter10]
+Name=GlobalDocumentNumberPCB
+Value=0000-0000
+
+[Parameter11]
+Name=GlobalDocumentNumberDrawingPCB
+Value=0000-0000
+
+[Parameter12]
+Name=GlobalDocumentNumberDrawingASM
+Value=0000-0000
+
+[Parameter13]
+Name=GlobalCompanyName
+Value=MRobot, LCC
+
+[Parameter14]
+Name=GlobalAddress3
+Value=Ph: +7 (911) 701-51-99
+
+[Parameter15]
+Name=GlobalAddress2
+Value=Saint-Petersburg, 197022
+
+[Parameter16]
+Name=GlobalAddress1
+Value=nab. reki Karpovki, d. 5/3E
 
 [Configuration1]
 Name=Sources
@@ -463,7 +463,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Industrial-Controller
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1410,66 +1410,66 @@ MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
-PhysicalNamingFormat=$Component_$RoomName
-GlobalIndexSortOrder=3
+PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
+GlobalIndexSortOrder=1
 GlobalIndexSortLocation=0
-UniqueIDPath0=\BLHIQUJY
-DocumentName0=Industrial-Controller_Temperature.SchDoc
+UniqueIDPath0=\GNMELJUL
+DocumentName0=Industrial-Controller_MCU.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=13
+Order0=2
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\ZPABQTFB
-DocumentName1=Industrial-Controller_USB.SchDoc
+UniqueIDPath1=\IBRDDTPK
+DocumentName1=Industrial-Controller_ESP8266.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=14
+Order1=12
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\1UWJDGOEX
-DocumentName2=Industrial-Controller_Input.SchDoc
+UniqueIDPath2=\UZAUPZYY
+DocumentName2=Industrial-Controller_Power.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=3
+Order2=1
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\JJIWBAPT
-DocumentName3=Industrial-Controller_Fan.SchDoc
+UniqueIDPath3=\2HSYBTUVH
+DocumentName3=Industrial-Controller_Relay.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=2
+Order3=8
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=
-DocumentName4=Industrial-Controller_Overview.SchDoc
+UniqueIDPath4=\JJIWBAPT
+DocumentName4=Industrial-Controller_Fan.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=7
+Order4=13
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\2UWJDGOEX
-DocumentName5=Industrial-Controller_Input.SchDoc
+UniqueIDPath5=\1HSYBTUVH
+DocumentName5=Industrial-Controller_Relay.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=4
+Order5=7
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\UZAUPZYY
-DocumentName6=Industrial-Controller_Power.SchDoc
+UniqueIDPath6=\3HSYBTUVH
+DocumentName6=Industrial-Controller_Relay.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=8
+Order6=9
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\3UWJDGOEX
+UniqueIDPath7=\2UWJDGOEX
 DocumentName7=Industrial-Controller_Input.SchDoc
 IsEnabled7=1
 SelectionScope7=All
@@ -1477,51 +1477,51 @@ Order7=5
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\1HSYBTUVH
+UniqueIDPath8=\4HSYBTUVH
 DocumentName8=Industrial-Controller_Relay.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=9
+Order8=10
 IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\2HSYBTUVH
-DocumentName9=Industrial-Controller_Relay.SchDoc
+UniqueIDPath9=\BLHIQUJY
+DocumentName9=Industrial-Controller_Temperature.SchDoc
 IsEnabled9=1
 SelectionScope9=All
-Order9=10
+Order9=11
 IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
-UniqueIDPath10=\3HSYBTUVH
-DocumentName10=Industrial-Controller_Relay.SchDoc
+UniqueIDPath10=\3UWJDGOEX
+DocumentName10=Industrial-Controller_Input.SchDoc
 IsEnabled10=1
 SelectionScope10=All
-Order10=11
+Order10=6
 IndexEnabled10=0
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=\IBRDDTPK
-DocumentName11=Industrial-Controller_ESP8266.SchDoc
+UniqueIDPath11=
+DocumentName11=Industrial-Controller_Overview.SchDoc
 IsEnabled11=1
 SelectionScope11=All
-Order11=1
+Order11=0
 IndexEnabled11=0
 IndexStartValue11=1
 Suffix11=
-UniqueIDPath12=\GNMELJUL
-DocumentName12=Industrial-Controller_MCU.SchDoc
+UniqueIDPath12=\ZPABQTFB
+DocumentName12=Industrial-Controller_USB.SchDoc
 IsEnabled12=1
 SelectionScope12=All
-Order12=6
+Order12=3
 IndexEnabled12=0
 IndexStartValue12=1
 Suffix12=
-UniqueIDPath13=\4HSYBTUVH
-DocumentName13=Industrial-Controller_Relay.SchDoc
+UniqueIDPath13=\1UWJDGOEX
+DocumentName13=Industrial-Controller_Input.SchDoc
 IsEnabled13=1
 SelectionScope13=All
-Order13=12
+Order13=4
 IndexEnabled13=0
 IndexStartValue13=1
 Suffix13=
