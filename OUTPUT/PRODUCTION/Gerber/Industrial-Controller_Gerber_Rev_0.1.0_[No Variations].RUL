@@ -1,0 +1,19 @@
+DRC Rules Export File for PCB: C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_TP|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Clearance_CHASSIS|Scope=Board|Minimum=20.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_SDCard|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_LQFP176|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_VCC_PLANE|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance_ETH_VDDA|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_3W|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width_Signal_Buried|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_Signal_Via|Scope=Board|Minimum=5.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_LCD_conns|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_TSOP-54|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_TSSOP-14|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
