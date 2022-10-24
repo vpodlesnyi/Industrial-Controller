@@ -33,7 +33,9 @@ D85   ROUNDED            59.055      59.055       0.000 FLASH       0.000
 D86   ROUNDED            94.488      94.488       0.000 FLASH       0.000
 D87   RECTANGULAR        94.488      94.488       0.000 FLASH     180.000
 D88   ROUNDED            27.559      27.559       0.000 FLASH       0.000
-D89   ROUNDED             1.968       1.968       0.000  LINE       0.000
-D90   ROUNDED             2.000       2.000       0.000  LINE       0.000
-D91   ROUNDED             2.665       2.665       0.000  LINE       0.000
-D92   ROUNDED             1.335       1.335       0.000  LINE       0.000
+D89   ROUNDED             1.000       1.000       0.000  LINE       0.000
+D90   RECTANGULAR       685.039     185.039       0.000 FLASH       0.000
+D91   ROUNDED             1.968       1.968       0.000  LINE       0.000
+D92   ROUNDED             2.000       2.000       0.000  LINE       0.000
+D93   ROUNDED             2.665       2.665       0.000  LINE       0.000
+D94   ROUNDED             1.335       1.335       0.000  LINE       0.000

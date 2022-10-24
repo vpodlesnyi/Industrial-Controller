@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Industrial-Controller.PcbDoc   23.10.2022  12:49:18
+NCDrill File Report For: Industrial-Controller.PcbDoc   24.10.2022  13:18:05
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : Industrial-Controller_NC Drill_Rev_0.1.0_[No Variations]
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             114       PTH        527.11mm (20.75inch)
+T1      0.3mm (12mil)                                             Round             116       PTH        538.28mm (21.19inch)
 T2      0.5mm (20mil)                                             Round             43        PTH        319.30mm (12.57inch)
 T3      0.7mm (28mil)                                             Round             2         PTH        4.88mm (0.19inch)
 T4      0.92mm (36mil)                                            Round             4         PTH        6.50mm (0.26inch)
@@ -17,6 +17,6 @@ T7      1.4mm (55mil)                                             Round         
 T8      2.3mm (91mil)                                             Round             2         PTH        12.04mm (0.47inch)
 T9      5mm (197mil)                                              Round             3         NPTH       150.15mm (5.91inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              226
+Totals                                                                              228
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
