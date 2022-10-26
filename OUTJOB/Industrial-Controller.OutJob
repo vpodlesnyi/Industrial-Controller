@@ -15,218 +15,187 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Industrial-Controller.OutJob
+Name=Industrial-Controller1.OutJob
 Description=
-TargetOutputMedium=3D VIEW
+TargetOutputMedium=STEP 3D
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium1=SCH
-OutputMedium1_Type=Publish
-OutputMedium2=3D VIEW
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=SCH
 OutputMedium2_Type=Publish
-OutputMedium3=PRODUCTION
-OutputMedium3_Type=GeneratedFiles
-OutputMedium4=BOM
+OutputMedium3=3D VIEW
+OutputMedium3_Type=Publish
+OutputMedium4=PRODUCTION
 OutputMedium4_Type=GeneratedFiles
-OutputMedium5=STEP 3D
+OutputMedium5=BOM
 OutputMedium5_Type=GeneratedFiles
+OutputMedium6=STEP 3D
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
-OutputName1=Schematic
+OutputName1=SCH
 OutputCategory1=Documentation
-OutputDocumentPath1=
-OutputVariantName1=
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=[No Variations]
 OutputEnabled1=0
-OutputEnabled1_OutputMedium1=1
-OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.98|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=False|ShowProbe=False|ShowBlanket=False|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D View Top
 OutputCategory2=Documentation
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=1
-OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=1
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.59|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=87818293|ViewY=52788281|LookAtX=58049712|LookAtY=48819384|LookAtZ=-1963107.875|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=-0.261255443096161|QuatY=0|QuatZ=0|QuatW=0.965269684791565|Zoom=1.64430434087647E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20Dark%20Green%20Configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\39540010\2CFG3D.BOARDCORECOLOR\313368312\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\32183192\2CFG3D.BOTSOLDERMASKCOLOR\32183192\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.860000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.830000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.830000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000|DocumentPath=C:\ALTIUM\door-controller-single-pcb\PCB\Door_Controller_Single.PcbDoc
-OutputType3=BOM_PartType
-OutputName3=BOM
-OutputCategory3=Report
-OutputDocumentPath3=[ActiveBOM Document]
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=38582682|ViewY=31889767|LookAtX=100000000|LookAtY=100000000|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.29851004137037E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+OutputType3=PCB 3D Print
+OutputName3=PCB 3D View Bottom
+OutputCategory3=Documentation
+OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=0
-OutputEnabled3_OutputMedium4=1
+OutputEnabled3_OutputMedium3=2
+OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration3_Name1=ColumnNameFormat
-Configuration3_Item1=CaptionAsName
-Configuration3_Name2=General
-Configuration3_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\TEMPLATES\BOM.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1554|FormHeight=781|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
-Configuration3_Name3=GroupOrder
-Configuration3_Item3=Description=True
-Configuration3_Name4=OutputConfigurationParameter1
-Configuration3_Item4=??
-Configuration3_Name5=SortOrder
-Configuration3_Item5=Designator=Up
-Configuration3_Name6=VisibleOrder
-Configuration3_Item6=Description=254|Package / Case=136|Quantity=80|Designator=210|Supplier 1=71|Supplier Currency 1=64|Supplier Order Qty 1=42|Supplier Part Number 1=179|Supplier Stock 1=88|Supplier Subtotal 1=95|Supplier Unit Price 1=130
-Configuration3_Name7=VisibleOrder_Base
-Configuration3_Item7=Line #=54|Comment=52|Description=96|Designator=94|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
-Configuration3_Name8=VisibleOrder_Consolidated
-Configuration3_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100
-Configuration3_Name9=VisibleOrder_Flat
-Configuration3_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100
-OutputType4=PCB 3D Print
-OutputName4=PCB 3D View Bottom
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.59|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=38582682|ViewY=31889767|LookAtX=100000000|LookAtY=100000000|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.29851004137037E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+OutputType4=PDF3D
+OutputName4=PDF3D
 OutputCategory4=Documentation
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=2
-OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=3
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.59|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=81365544|ViewY=48909482|LookAtX=58578288|LookAtY=46940680|LookAtZ=8038070.5|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=4.14207050880577E-8|QuatY=-0.947595298290253|QuatZ=-0.319473266601562|QuatW=-1.39646223473733E-8|Zoom=1.77470700015771E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\ALTIUM\door-controller-single-pcb\PCB\Door_Controller_Single.PcbDoc
-OutputType5=Pick Place
-OutputName5=Generates pick and place files
-OutputCategory5=Assembly
+Configuration4_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
-OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium4=1
 OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|DocumentPath=D:\Altium\door-controller-front-pcb\PCB\Door_Controller_Front.PcbDoc
-OutputType6=Gerber
-OutputName6=Gerber Files
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+OutputType6=NC Drill
+OutputName6=NC Drill Files
 OutputCategory6=Fabrication
 OutputDocumentPath6=
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=1
-OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=2
 OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
-OutputType7=NC Drill
-OutputName7=NC Drill Files
-OutputCategory7=Fabrication
-OutputDocumentPath7=
+Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+OutputType7=BOM_PartType
+OutputName7=BOM
+OutputCategory7=Report
+OutputDocumentPath7=[ActiveBOM Document]
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=2
+OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
-OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium5=1
+OutputEnabled7_OutputMedium6=0
 OutputDefault7=0
-Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=ColumnNameFormat
+Configuration7_Item1=CaptionAsName
+Configuration7_Name2=General
+Configuration7_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\TEMPLATES\BOM.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration7_Name3=GroupOrder
+Configuration7_Item3=Comment=True|Footprint=True
+Configuration7_Name4=SortOrder
+Configuration7_Item4=Designator=Up
+Configuration7_Name5=VisibleOrder
+Configuration7_Item5=Designator=120|Description=245|Manufacturer 1=189|Manufacturer Part Number 1=190|Quantity=79
+Configuration7_Name6=VisibleOrder_Base
+Configuration7_Item6=Designator=120|Description=245|Manufacturer 1=189|Manufacturer Part Number 1=190|Quantity=79
+Configuration7_Name7=VisibleOrder_Consolidated
+Configuration7_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration7_Name8=VisibleOrder_Flat
+Configuration7_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType8=ExportSTEP
-OutputName8=STEP 3D Model
+OutputName8=Export STEP
 OutputCategory8=Export
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
-OutputEnabled8_OutputMedium5=1
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=1
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
-OutputType9=PDF3D
-OutputName9=PDF3D
-OutputCategory9=Documentation
-OutputDocumentPath9=
-OutputVariantName9=
-OutputEnabled9=1
-OutputEnabled9_OutputMedium1=0
-OutputEnabled9_OutputMedium2=3
-OutputEnabled9_OutputMedium3=0
-OutputEnabled9_OutputMedium4=0
-OutputEnabled9_OutputMedium5=0
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration9_Name1=OutputConfigurationParameter1
-Configuration9_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=D:\ALTIUM\door-controller-single-pcb\PCB\Door_Controller_Single.PcbDoc
+Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\PCB\Industrial-Controller.PcbDoc
 
 [PublishSettings]
-OutputFilePath1=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\SCH\Industrial-Controller_SCH_Rev_0.1.0_VariantName.PDF
-ReleaseManaged1=0
-OutputBasePath1=OUTPUT\
-OutputPathMedia1=[Media Name]
-OutputPathMediaValue1==OutputName
-OutputPathOutputer1=[Output Type]
-OutputPathOutputerPrefix1=
-OutputPathOutputerValue1=
-OutputFileName1=Industrial-Controller.PDF
-OutputFileNameMulti1=
-UseOutputNameForMulti1=0
-OutputFileNameSpecial1==ProjectName+_SCH_Rev_+GlobalRevisionSCH+_+VariantName
-OpenOutput1=1
-PromptOverwrite1=1
-PublishMethod1=0
-ZoomLevel1=50
-FitSCHPrintSizeToDoc1=1
-FitPCBPrintSizeToDoc1=1
-GenerateNetsInfo1=1
-MarkPins1=1
-MarkNetLabels1=1
-MarkPortsId1=1
-GenerateTOC1=1
-ShowComponentParameters1=1
-GlobalBookmarks1=0
-PDFACompliance1=Disabled
-PDFVersion1=Default
-OutputFilePath2=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\3D VIEW\Industrial-Controller_3D_View_Rev_0.1.0_VariantName.PDF
+OutputFilePath2=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\Industrial-Controller.pdf
 ReleaseManaged2=0
-OutputBasePath2=Output\
+OutputBasePath2=OUTPUT\
 OutputPathMedia2=[Media Name]
-OutputPathMediaValue2==OutputType
+OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
 OutputFileName2=Industrial-Controller.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
-OutputFileNameSpecial2==ProjectName+_3D_View_Rev_+GlobalRevisionPCB+_+VariantName
+OutputFileNameSpecial2==ProjectName+_SCH_Rev_+GlobalRevisionSCH+_+VariantName
 OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
-FitSCHPrintSizeToDoc2=1
-FitPCBPrintSizeToDoc2=1
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
 GenerateNetsInfo2=1
 MarkPins2=1
 MarkNetLabels2=1
@@ -236,62 +205,79 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\PRODUCTION\
+OutputFilePath3=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\3D VIEW\Industrial-Controller_3D_View_Rev_0.1.0_VariantName.PDF
 ReleaseManaged3=0
-OutputBasePath3=Output\
+OutputBasePath3=OUTPUT\
 OutputPathMedia3=[Media Name]
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
-OutputFileName3=
-OutputFileNameMulti3==ProjectName+_+OutputType+_Rev_+GlobalRevisionPCB+_+VariantName
+OutputFileName3=Industrial-Controller1.PDF
+OutputFileNameMulti3=
 UseOutputNameForMulti3=0
-OutputFileNameSpecial3=
-OpenOutput3=0
-OutputFilePath4=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\
+OutputFileNameSpecial3==ProjectName+_3D_View_Rev_+GlobalRevisionPCB+_+VariantName
+OpenOutput3=1
+PromptOverwrite3=1
+PublishMethod3=0
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=1
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+GenerateTOC3=1
+ShowComponentParameters3=1
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\PRODUCTION\
 ReleaseManaged4=0
-OutputBasePath4=Output\
-OutputPathMedia4=
-OutputPathMediaValue4=BOM
+OutputBasePath4=OUTPUT\
+OutputPathMedia4=[Media Name]
+OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
 OutputFileName4=
-OutputFileNameMulti4==ProjectName+_BOM_Rev_+GlobalRevisionBOM+_+VariantName
+OutputFileNameMulti4==ProjectName+_+OutputType+_Rev_+GlobalRevisionPCB+_+VariantName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1
-OutputFilePath5=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\STEP 3D\
+OutputFilePath5=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\BOM\
 ReleaseManaged5=0
-OutputBasePath5=Output\
+OutputBasePath5=OUTPUT\
 OutputPathMedia5=[Media Name]
 OutputPathMediaValue5=
 OutputPathOutputer5=
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
 OutputFileName5=
-OutputFileNameMulti5==ProjectName+_STEP_3D_Rev_+GlobalRevisionPCB+_+VariantName
+OutputFileNameMulti5==ProjectName+_BOM_Rev_+GlobalRevisionBOM+_+VariantName
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
+OutputFilePath6=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\STEP 3D\
+ReleaseManaged6=0
+OutputBasePath6=OUTPUT\
+OutputPathMedia6=[Media Name]
+OutputPathMediaValue6=
+OutputPathOutputer6=
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6==ProjectName+_STEP_3D_Rev_+GlobalRevisionPCB+_+VariantName
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\SCH\Industrial-Controller_SCH_Rev_0.1.0_VariantName.PDF
-OpenOutputs1=1
-RelativeOutputPath2=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\3D VIEW\Industrial-Controller_3D_View_Rev_0.1.0_VariantName.PDF
+RelativeOutputPath2=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\Industrial-Controller.pdf
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\PRODUCTION\
-OpenOutputs3=0
-AddToProject3=0
-TimestampFolder3=0
-UseOutputName3=0
-OpenODBOutput3=0
-OpenGerberOutput3=0
-OpenNCDrillOutput3=0
-OpenIPCOutput3=0
-EnableReload3=0
-RelativeOutputPath4=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\
+RelativeOutputPath3=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\3D VIEW\Industrial-Controller_3D_View_Rev_0.1.0_VariantName.PDF
+OpenOutputs3=1
+RelativeOutputPath4=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\PRODUCTION\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
@@ -301,7 +287,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\Output\STEP 3D\
+RelativeOutputPath5=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\BOM\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
@@ -311,4 +297,14 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
+RelativeOutputPath6=C:\Users\Naval\OneDrive\Документы\Industrial-Controller\OUTPUT\STEP 3D\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 

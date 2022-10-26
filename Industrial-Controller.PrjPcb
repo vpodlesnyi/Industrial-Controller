@@ -321,23 +321,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=OUTJOB\Industrial-Controller.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document18]
 DocumentPath=Industrial-Controller.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=SCH\Industrial-Controller_USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,8 +354,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=SCH\Industrial-Controller_Temperature.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=OUTJOB\Industrial-Controller.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -390,6 +390,82 @@ DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Industrial-Controller\Design Rule Check - Industrial-Controller.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=OUTPUT\BOM\Industrial-Controller_BOM_Rev_0.1.0_No Variations.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=OUTPUT\PRODUCTION\Gerber\Industrial-Controller_Gerber_Rev_0.1.0_No Variations.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=OUTPUT\PRODUCTION\NC Drill\Industrial-Controller_NC Drill_Rev_0.1.0_No Variations.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=OUTPUT\PRODUCTION\NC Drill\Industrial-Controller_NC Drill_Rev_0.1.0_No Variations.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=OUTPUT\PRODUCTION\NC Drill\Industrial-Controller_NC Drill_Rev_0.1.0_No Variations.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=OUTPUT\STEP 3D\Industrial-Controller_STEP_3D_Rev_0.1.0_No Variations.step
 DItemRevisionGUID=
 
 [Parameter1]
@@ -430,7 +506,7 @@ Value=PLC
 
 [Parameter10]
 Name=GlobalDocumentTitle
-Value=Industrial PLC
+Value=Industrial Controller
 
 [Parameter11]
 Name=GlobalEngineer
@@ -442,7 +518,7 @@ Value=PLCMROBOT
 
 [Parameter13]
 Name=GlobalProjectTitle
-Value=Industrial PLC
+Value=Industrial Controller
 
 [Parameter14]
 Name=GlobalRevisionBOM
@@ -465,6 +541,44 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-4
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=-1
+SCH_ExpandDocumentNumber=-1
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
 
 [Generic_EDE]
 OutputDir=Project Outputs for Industrial-Controller
@@ -1055,6 +1169,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1425,75 +1569,75 @@ Order0=3
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\2HSYBTUVH
-DocumentName1=Industrial-Controller_Relay.SchDoc
+UniqueIDPath1=\GNMELJUL
+DocumentName1=Industrial-Controller_MCU.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=8
+Order1=2
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\JJIWBAPT
-DocumentName2=Industrial-Controller_Fan.SchDoc
+UniqueIDPath2=\3HSYBTUVH
+DocumentName2=Industrial-Controller_Relay.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=13
+Order2=9
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=
-DocumentName3=Industrial-Controller_Overview.SchDoc
+UniqueIDPath3=\2UWJDGOEX
+DocumentName3=Industrial-Controller_Input.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=0
+Order3=5
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\1UWJDGOEX
-DocumentName4=Industrial-Controller_Input.SchDoc
+UniqueIDPath4=
+DocumentName4=Industrial-Controller_Overview.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=4
+Order4=0
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\2UWJDGOEX
+UniqueIDPath5=\1UWJDGOEX
 DocumentName5=Industrial-Controller_Input.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=5
+Order5=4
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\UZAUPZYY
-DocumentName6=Industrial-Controller_Power.SchDoc
+UniqueIDPath6=\IBRDDTPK
+DocumentName6=Industrial-Controller_ESP8266.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=1
+Order6=12
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\3HSYBTUVH
-DocumentName7=Industrial-Controller_Relay.SchDoc
+UniqueIDPath7=\UZAUPZYY
+DocumentName7=Industrial-Controller_Power.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=9
+Order7=1
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\BLHIQUJY
-DocumentName8=Industrial-Controller_Temperature.SchDoc
+UniqueIDPath8=\1HSYBTUVH
+DocumentName8=Industrial-Controller_Relay.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=11
+Order8=7
 IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\GNMELJUL
-DocumentName9=Industrial-Controller_MCU.SchDoc
+UniqueIDPath9=\2HSYBTUVH
+DocumentName9=Industrial-Controller_Relay.SchDoc
 IsEnabled9=1
 SelectionScope9=All
-Order9=2
+Order9=8
 IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
@@ -1505,27 +1649,27 @@ Order10=10
 IndexEnabled10=0
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=\IBRDDTPK
-DocumentName11=Industrial-Controller_ESP8266.SchDoc
+UniqueIDPath11=\3UWJDGOEX
+DocumentName11=Industrial-Controller_Input.SchDoc
 IsEnabled11=1
 SelectionScope11=All
-Order11=12
+Order11=6
 IndexEnabled11=0
 IndexStartValue11=1
 Suffix11=
-UniqueIDPath12=\3UWJDGOEX
-DocumentName12=Industrial-Controller_Input.SchDoc
+UniqueIDPath12=\JJIWBAPT
+DocumentName12=Industrial-Controller_Fan.SchDoc
 IsEnabled12=1
 SelectionScope12=All
-Order12=6
+Order12=13
 IndexEnabled12=0
 IndexStartValue12=1
 Suffix12=
-UniqueIDPath13=\1HSYBTUVH
-DocumentName13=Industrial-Controller_Relay.SchDoc
+UniqueIDPath13=\BLHIQUJY
+DocumentName13=Industrial-Controller_Temperature.SchDoc
 IsEnabled13=1
 SelectionScope13=All
-Order13=7
+Order13=11
 IndexEnabled13=0
 IndexStartValue13=1
 Suffix13=
